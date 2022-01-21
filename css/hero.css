@@ -1,0 +1,23 @@
+
+.hero {
+    padding: 45rem 0 30rem;
+    text-align: center;
+}
+.hero .title {
+    margin-bottom: 2rem;
+}
+.hero .text {
+    margin-bottom: 5rem;
+}
+@media screen and (min-width: 1440px) {
+    .hero__wrapper { 
+        background-image: url('../img/bg.jpeg');
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 45% auto;
+    }
+  
+    .hero {
+        text-align: left;
+    }
+}
