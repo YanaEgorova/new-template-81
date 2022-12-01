@@ -10,7 +10,8 @@
   height: 19rem;
   display: block;
   content: '';
-  background-color: rgba(219, 183, 73, .7);
+  background-color: var(--second-brand-color);
+  opacity: .7;
 }
 .footer {
   position: relative;

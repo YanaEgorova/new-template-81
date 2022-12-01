@@ -9,7 +9,8 @@
     right: 0;
     display: block;
     content: '';
-    background-color: rgba(219, 183, 73, .7);
+    background-color: var(--second-brand-color);
+    opacity: .7;
 }
 .products {
     text-align: center;
@@ -140,7 +141,8 @@
        max-width: 125rem;
        margin-left: auto;
        display: grid;
-       grid-template-columns: repeat(7, 1fr);
+       grid-template-columns: repeat(5, 23rem);
+       justify-content: end;
        column-gap: .5rem;
        row-gap: .5rem;
    }
